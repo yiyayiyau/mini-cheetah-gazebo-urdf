@@ -117,7 +117,7 @@ class yoboticsOdometry:
         if b > a:
             largest = b
         else:
-            larget = a
+            largest = a
 
         if diff <= (largest * max_rel_diff):
             return True
